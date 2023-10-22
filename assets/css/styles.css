@@ -388,6 +388,10 @@ main.wrapper section#contact form > div div textarea {
     grid-row: 2;
   }
 
+  main.wrapper section#home div.info p {
+    text-align: center;
+  }
+
   main.wrapper section#home div img {
     height: 150px;
     width: 150px;
