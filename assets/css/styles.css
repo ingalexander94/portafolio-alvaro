@@ -146,6 +146,7 @@ main.wrapper section#home div.info h3 {
 main.wrapper section#home div.info p {
   font-size: 20px;
   color: var(--text-color);
+  text-align: left;
 }
 
 main.wrapper section#home div.info h3 span {
