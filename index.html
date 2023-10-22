@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <title>Parcial 2 | Álvaro</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#home">
+          <img src="./assets/images/avatar.jpeg" alt="Avatar de Álvaro" />
+          <div>Alvaro Mejía</div>
+        </a>
+        <input type="checkbox" name="menu" id="menu" />
+        <label for="menu"><i></i></label>
+        <ul>
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="wrapper">
+      <section id="home">
+        <div class="info">
+          <h3>Hola soy <span>Álvaro Mejía</span></h3>
+          <p>
+            Soy un apacionado por el desarrollo web, con más de 7 años de
+            experiencia en el manejo de varías tecnologías y metodologías de
+            desarrollo.
+          </p>
+          <a href="#contact">Contactame</a>
+        </div>
+        <div>
+          <img src="./assets/images/avatar.jpeg" alt="Logo de Álvaro" />
+        </div>
+      </section>
+      <section id="experience">
+        <h4>Experiencia</h4>
+        <article>
+          <div>
+            <i class="fas fa-briefcase"></i>
+            <h5>Experiencia 1</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              repellat, impedit, incidunt ex deleniti temporibus aliquam
+              voluptate praesentium reprehenderit aperiam iste.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-user-cog"></i>
+            <h5>Experiencia 2</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              repellat, impedit, incidunt ex deleniti temporibus aliquam
+              voluptate praesentium reprehenderit aperiam iste.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-user-shield"></i>
+            <h5>Experiencia 3</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              repellat, impedit, incidunt ex deleniti temporibus aliquam
+              voluptate praesentium reprehenderit aperiam iste.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section id="skills">
+        <h4>Habilidades</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+          laborum.
+        </p>
+        <article>
+          <div>
+            <img src="./assets/images/terraform.svg" alt="Logo de Terraform" />
+            <div>
+              <a href="https://www.terraform.io/" target="_blank">Terraform</a>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/images/aws.svg" alt="Logo de AWS" />
+            <div>
+              <a href="https://aws.amazon.com/es" target="_blank"
+                >Amazon Web Services</a
+              >
+            </div>
+          </div>
+          <div>
+            <img src="./assets/images/docker.svg" alt="Logo de Docker" />
+            <div>
+              <a href="https://www.docker.com/" target="_blank">Docker</a>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/images/php.svg" alt="Logo de PHP" />
+            <div>
+              <a href="https://www.php.net/" target="_blank">PHP</a>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/images/gitlab.svg" alt="Logo de Gitlab" />
+            <div>
+              <a href="https://about.gitlab.com/" target="_blank">Gitlab</a>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/images/nginx.svg" alt="Logo de NGINX" />
+            <div>
+              <a href="https://www.nginx.com/" target="_blank">NGINX</a>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section id="contact">
+        <h4>Contacto</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+          laborum.
+        </p>
+        <form action="" method="post">
+          <div>
+            <div>
+              <label for="names">Nombres</label>
+              <input type="text" id="names" name="names" required />
+            </div>
+            <div>
+              <label for="surnames">Apellidos</label>
+              <input type="text" id="surnames" name="surnames" required />
+            </div>
+            <div>
+              <label for="subject">Asunto</label>
+              <input type="text" id="subject" name="subject" required />
+            </div>
+            <div>
+              <label for="email">Correo</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div>
+              <label for="message">Mensaje</label>
+              <textarea
+                name="message"
+                id="message"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <button type="submit">Enviar Mensaje</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
